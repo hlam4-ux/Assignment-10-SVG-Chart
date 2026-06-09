@@ -8,4 +8,4 @@ using namespace std;
 double findMax(const vector<double>& data);
 
 vector<double> scaleData(const vector<double>& data);
-vector<double> makePath(const vector<double>& x, )
+vector<double> makePath(const vector<double>& x, const vector<double>& y);
