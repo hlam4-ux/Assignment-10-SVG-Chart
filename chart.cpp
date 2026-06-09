@@ -38,3 +38,7 @@ vector<double> makeXCoordinates(int count)
 
   return result;
 }
+
+string makePath(const vector<double>& x, const vector<double>& y)
+{
+}
