@@ -15,4 +15,10 @@ double findMax(const vector<double>& data)
 
 vector<double> scaleData(const vector<double>& data)
 {
+  vector<double> result;
+
+  double biggest = findMax(data);
+  double scale = 500.0 / biggest;
+
+  for
 }
