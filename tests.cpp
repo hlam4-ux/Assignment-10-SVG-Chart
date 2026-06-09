@@ -8,5 +8,5 @@ TEST_CASE("findMax")
 {
   vector<double> data = {2, 6, 4, 9, 20, 16};
 
-  CHECK(findMax(data) == 20);
+  CHECK(findMax(data) == Approx(20));
 }
