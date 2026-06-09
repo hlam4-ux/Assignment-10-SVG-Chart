@@ -9,4 +9,6 @@ double findMax(const vector<double>& data)
       biggest = data[i];
     }
   }
+
+  return biggest;
 }
