@@ -12,3 +12,7 @@ double findMax(const vector<double>& data)
 
   return biggest;
 }
+
+vector<double> scaleData(const vector<double>& data)
+{
+}
