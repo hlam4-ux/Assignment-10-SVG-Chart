@@ -41,4 +41,5 @@ vector<double> makeXCoordinates(int count)
 
 string makePath(const vector<double>& x, const vector<double>& y)
 {
+  a
 }
