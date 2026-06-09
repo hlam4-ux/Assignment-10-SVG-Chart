@@ -20,3 +20,7 @@ TEST_CASE("scaleData")
   CHECK(result[1] == Approx(150));
   CHECK(result[2] == Approx(100));
 }
+
+TEST_CASE("makeXCoordinates")
+{
+}
