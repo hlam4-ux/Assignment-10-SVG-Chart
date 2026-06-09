@@ -20,5 +20,9 @@ vector<double> scaleData(const vector<double>& data)
   double biggest = findMax(data);
   double scale = 500.0 / biggest;
 
-  for
+  for (int i = 0; i < data.size(); i++) {
+    result.push_back(data[i] * scale);
+  }
+
+  return result;
 }
