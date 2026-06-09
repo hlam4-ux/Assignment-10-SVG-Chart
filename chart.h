@@ -6,4 +6,5 @@
 using namespace std;
 
 double findMax(const vector<double>& data);
+
 vector<double> scaleData(const vector<double>& data);
