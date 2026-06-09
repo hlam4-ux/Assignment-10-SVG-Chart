@@ -8,5 +8,8 @@ using namespace std;
 
 int main()
 {
-  cout << "Hello world" << endl;
+  ifstream infile("data.txt");
+
+  vector<double> data;
+  double
 }
