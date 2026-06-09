@@ -24,4 +24,7 @@ TEST_CASE("scaleData")
 TEST_CASE("makeXCoordinates")
 {
   vector<double> result = makeXCoordinates(6);
+
+  CHECK(result[0] == Approx(0));
+  CHECK(result[5] == Approx(500));
 }
