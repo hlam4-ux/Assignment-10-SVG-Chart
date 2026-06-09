@@ -33,5 +33,6 @@ vector<double> makeXCoordinates(int count)
 
   double step = 500.0 / (count - 1);
   for (int i = 0; i < count; i++) {
-    }
+    result.push_back(i * step);
+  }
 }
