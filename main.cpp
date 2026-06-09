@@ -12,4 +12,8 @@ int main()
 
   vector<double> data;
   double value;
+
+  while (infile >> value) {
+    data.push_back(value);
+  }
 }
