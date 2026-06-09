@@ -33,4 +33,8 @@ TEST_CASE("makePath")
 {
   vector<double> x = {0, 100, 200};
   vector<double> y = {50, 150, 100};
+
+  string result = makePath(x, y);
+
+  CHECK(result.size() > 0);
 }
