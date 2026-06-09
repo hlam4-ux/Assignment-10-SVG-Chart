@@ -27,6 +27,9 @@ vector<double> scaleData(const vector<double>& data)
   return result;
 }
 
-vector<double> makeXCoordinates(int cout)
+vector<double> makeXCoordinates(int count)
 {
+  vector<double> result;
+
+  double step = 500.0 / (count - 1);
 }
