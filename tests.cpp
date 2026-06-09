@@ -31,4 +31,6 @@ TEST_CASE("makeXCoordinates")
 
 TEST_CASE("makePath")
 {
+  vector<double> x = {0, 100, 200};
+  vector<double> y = {50, 150, 100};
 }
