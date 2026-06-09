@@ -32,4 +32,6 @@ vector<double> makeXCoordinates(int count)
   vector<double> result;
 
   double step = 500.0 / (count - 1);
+  for (int i = 0; i < count; i++) {
+    }
 }
