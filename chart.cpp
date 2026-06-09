@@ -35,4 +35,6 @@ vector<double> makeXCoordinates(int count)
   for (int i = 0; i < count; i++) {
     result.push_back(i * step);
   }
+
+  return result;
 }
