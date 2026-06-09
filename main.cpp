@@ -16,4 +16,8 @@ int main()
   while (infile >> value) {
     data.push_back(value);
   }
+
+  vector<double> y = scaleData(data);
+  vector<double> x = makeXCoordinates(data.size());
+  string path = makePath(x, y);
 }
