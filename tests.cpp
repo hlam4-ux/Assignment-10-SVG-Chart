@@ -10,3 +10,7 @@ TEST_CASE("findMax")
 
   CHECK(findMax(data) == Approx(20));
 }
+
+TEST_CASE("scaleData")
+{
+}
