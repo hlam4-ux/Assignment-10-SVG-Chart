@@ -28,3 +28,7 @@ TEST_CASE("makeXCoordinates")
   CHECK(result[0] == Approx(0));
   CHECK(result[5] == Approx(500));
 }
+
+TEST_CASE("makePath")
+{
+}
