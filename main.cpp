@@ -11,5 +11,5 @@ int main()
   ifstream infile("data.txt");
 
   vector<double> data;
-  double
+  double value;
 }
