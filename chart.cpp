@@ -26,3 +26,7 @@ vector<double> scaleData(const vector<double>& data)
 
   return result;
 }
+
+vector<double> makeXCoordinates(int cout)
+{
+}
