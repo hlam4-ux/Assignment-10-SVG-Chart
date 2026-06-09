@@ -41,14 +41,14 @@ vector<double> makeXCoordinates(int count)
 
 string makePath(const vector<double>& x, const vector<double>& y)
 {
-  string path = "M";
+  string path = "M ";
 
   path += to_string(x[0]);
   path += " ";
   path += to_string(y[0]);
 
   for (int i = 1; i < x.size(); i++) {
-    path += "L";
+    path += "L ";
     path += to_string(x[i]);
     path += " ";
     path += to_string(y[i]);
