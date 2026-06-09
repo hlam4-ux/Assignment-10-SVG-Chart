@@ -20,4 +20,8 @@ int main()
   vector<double> y = scaleData(data);
   vector<double> x = makeXCoordinates(data.size());
   string path = makePath(x, y);
+
+  ofstream outfile("chart.svg");
+
+  outfile <<
 }
