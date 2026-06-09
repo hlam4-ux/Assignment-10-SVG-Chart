@@ -31,4 +31,7 @@ int main()
   outfile << "<path d=\"" << path
           << "\" fill=\"none\" stroke=\"blue\" stroke-width=\"2\"/>" << endl;
   outfile << "</g>" << endl;
+  outfile << "</svg>" << endl;
+
+  return 0;
 }
