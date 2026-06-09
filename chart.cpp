@@ -50,6 +50,9 @@ string makePath(const vector<double>& x, const vector<double>& y)
   for (int i = 1; i < x.size(); i++) {
     path += "L";
     path += to_string(x[i]);
-    path
+    path += " ";
+    path += to_string(y[i]);
   }
+
+  return path;
 }
