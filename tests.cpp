@@ -23,4 +23,5 @@ TEST_CASE("scaleData")
 
 TEST_CASE("makeXCoordinates")
 {
+  vector<double> result = makeXCoordinates(6);
 }
