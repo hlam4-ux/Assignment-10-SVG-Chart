@@ -28,4 +28,7 @@ int main()
              "black;\">"
           << endl;
   outfile << "<g transform=\"scale(1 -1)\">" << endl;
+  outfile << "<path d=\"" << path
+          << "\" fill=\"none\" stroke=\"blue\" stroke-width=\"2\"/>" << endl;
+  outfile << "</g>" << endl;
 }
